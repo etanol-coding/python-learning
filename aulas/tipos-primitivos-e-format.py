@@ -1,0 +1,11 @@
+input('Gostaria de saber os tipos primitivos? Enter = Sim \n')
+print('tipo primitivo - int \n números inteiros, sempre sem vírgula exemplo: 7')
+input('')
+print('tipo primitivo - float \n números sempre com virgula, exemplo: 7.0')
+input('')
+print('tipo primitivo - bool \n true ou false')
+input('')
+print('tipo primitivo - string \n serie de caractéres, sempre em aspas "" \n')
+format = 'format'
+input(f'deseja saber sobre o {format}? \n')
+print('Você sabe demais')
