@@ -12,4 +12,4 @@
 # 1 - negrito
 # 4 - sublinhado
 # 7 revertido
-print('\033[4;34;43m Olá, mundo!')
+print('\033[7m Olá, mundo!')

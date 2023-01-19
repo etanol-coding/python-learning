@@ -6,7 +6,7 @@ if nota>10: #nos if sempre utilize :
     print('O máximo era 10. Deixe de ser mentiroso') 
 elif nota==10:
     print('O máximo era 10. Você com certeza colou, sua nota era 10. \n M A S  A G O R A  S E R A  Z E R O  S E U  I N C O M P E T E N T E')
-elif nota >= 7:
+elif nota >= 7: #else if é elif
     print(f'\nParabéns! a média era 7, Você tirou {nota} e passou!') #identação com TAB para criar um bloco
     karma == 1
 else:
