@@ -15,6 +15,13 @@ lista.pop(0) #também pode escolher qual eliminar
 lista.remove('item2') #elimina um item em especifico
 print(lista)
 lista = list(range(1, 4)) #crie lista com o list() e o range()
-lista[2] = float(input('digite um número --->  '))
+lista[2] = int(input('digite um número --->  '))
 lista.sort() #coloca os números da lista em ordem crescente
 print(lista)
+lista.sort(reverse=True)
+print(lista)
+listafor = list(range(1, 4))
+print(len(lista))
+for c in range(0, 3):
+    listafor[c] = str(input('digite algo --->  '))
+    print(listafor)
