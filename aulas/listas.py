@@ -20,8 +20,10 @@ lista.sort() #coloca os números da lista em ordem crescente
 print(lista)
 lista.sort(reverse=True)
 print(lista)
-listafor = list(range(1, 4))
+listafor = list()
 print(len(lista))
 for c in range(0, 3):
-    listafor[c] = str(input('digite algo --->  '))
-    print(listafor)
+    listafor.append(input('digite algo --->  '))
+print(listafor)
+listafor.clear() #.clear() exclui todos os itens da lista
+print(listafor)
