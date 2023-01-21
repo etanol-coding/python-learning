@@ -1,3 +1,4 @@
+print('', end='') #normalmente no final de todo print() tem uma quebra de linha \n, defina o que quiser no fim da string com end=''
 print('-' * 30) #utilize operadores aritimeticos para printar quantas vezes quiser um texto. 
 input('Deseja saber sobre fatiamento de strings? Enter - Sim\n')
 alfa = 'abcdefghijklmnopqrstuvwxyz'
