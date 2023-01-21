@@ -1,3 +1,4 @@
+print('-' * 30) #utilize operadores aritimeticos para printar quantas vezes quiser um texto. 
 input('Deseja saber sobre fatiamento de strings? Enter - Sim\n')
 alfa = 'abcdefghijklmnopqrstuvwxyz'
 print(f'String a fatiar: {alfa}')
