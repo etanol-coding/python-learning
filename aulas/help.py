@@ -1,0 +1,1 @@
+help(len) #retorna a documentação de uma função
