@@ -9,4 +9,3 @@ while c =='S': #apeneas defina uma condição, não nescessáriamente quantas ve
     if repetir == 'N':
         break #O comando break para a repetição e volta ao código normal
 print('cógido normal')
-
